@@ -1,0 +1,7 @@
+stty rows 50 cols 150
+cd /out
+mkdir in/
+mkdir $1/
+cd ../
+
+./afl-fuzz -i /in -o /out/$1 -n /bin/$1 @@ 
