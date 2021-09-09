@@ -36,7 +36,7 @@ sync
 
 echo "~~~ Create Image Mounting Directory ~~~"
 if [ ! -e "${IMAGE_DIR}" ]; then
-    mkdir "${IMAGE_DIR}"
+    mkdir -p "${IMAGE_DIR}"
     chown "${USER}" "${IMAGE_DIR}"
 fi
 
