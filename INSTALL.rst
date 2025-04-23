@@ -4,6 +4,10 @@ To install ``IFFSET`` it on a fresh Ubuntu 20.04 LTS system you can follow these
 
 Setup
 ============
+Run the script to download needed archives.
+
+.. code-block:: none
+        ./download_kernels.sh
 
 .. code-block:: none
 
