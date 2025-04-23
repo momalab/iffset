@@ -4,14 +4,17 @@ To install ``IFFSET`` it on a fresh Ubuntu 20.04 LTS system you can follow these
 
 Setup
 ============
+
 Run the script to download needed archives.
 
 .. code-block:: none
+
         ./download_kernels.sh
 
 .. code-block:: none
 
 	sudo apt-get install busybox-static fakeroot git dmsetup kpartx nmap snmp
+
 .. code-block:: none
 
 	git clone --recursive https://github.com/momalab/iffset
